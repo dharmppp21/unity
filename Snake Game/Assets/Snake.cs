@@ -62,6 +62,7 @@ public class Snake : MonoBehaviour
         segments.Clear();
         segments.Add(this.transform);
         this.transform.position = Vector3.zero;
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
